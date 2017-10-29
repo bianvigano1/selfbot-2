@@ -27,10 +27,7 @@ class CommandService {
 
         switch (result.commandError) {
           case patron.CommandError.CommandNotFound:
-            return util.Messenger.sendError(msg.channel, util.StringUtil.isNullOrWhiteSpace(
-              msg.content.substring(msg.content.indexOf(prefix)+1, msg.content.indexOf(' ') === -1 ? msg.content.length : msg.content.indexOf(' ')))
-              ? 'You must provide a valid command' : '`' + (msg.content.substring(msg.content.indexOf(prefix)+1, msg.content.indexOf(' ') === -1 ? msg.content.length : msg.content.indexOf(' ')) +
-              '` is not a valid command'));
+            return;
           case patron.CommandError.Exception:
             if (result.error.code !== undefined) {
               if (result.error.code === 400) {
