@@ -58,13 +58,11 @@ Command | Description | Usage
 ---------------- | --------------| -------
 B|🅱|`-b <text>`
 Clap|👏 Emphasize 👏 your 👏 text 👏|`-clap <text>`
-Duplicateemojis|Find all global emojis to which you have access that exactly match a search|`-duplicateemojis <name>`
 Emojify|Turns your message into emojis|`-emojify <text>`
 Enlarge|Send a full-size version of a custom emoji|`-enlarge <emoji>`
-Globalemojis|List a guild's global emojis|`-globalemojis [guild]`
+Guildemojis|List the current guild's emojis|`-guildemojis`
 Kms|Kill yourself in a 3 frame animation|`-kms`
-Myemojis|List all global emojis to which you have access|`-myemojis [page]`
-Searchemoji|Find all global emojis to which you have access that match a search|`-searchemoji <name>`
+Stealemoji|Copies an emoji to the current server|`-stealemoji <emoji>`
 
 ### Fun
 
@@ -90,6 +88,7 @@ These commands are for when text just doesn't quite capture how you feel
 
 Command | Description | Usage
 ---------------- | --------------| -------
+Achievement|For when someone deserves an achievement|`-achievement <achievementName>`
 Boi|Use this when your buddy says something so stupid you dont even know how to respond|`-boi`
 Facepalm|Give your buddy the classic facepalm when he says something stupid|`-facepalm`
 L|Use this when someone needs to just take the L|`-l`
