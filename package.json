@@ -1,11 +1,9 @@
 {
-  "name": "selfbot",
+  "name": "test",
   "version": "1.0.0",
-  "description": "Papa John's Selfbot.",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "lint": "eslint --fix src/**"
   },
   "repository": {
     "type": "git",
@@ -18,7 +16,7 @@
     "selfbot",
     "bot"
   ],
-  "author": "PapaJohn#7777",
+  "author": "ℬ𝓲𝓪𝓷 𝓥𝓲𝓰𝓪𝓷𝓸 | ForevaMC#9706",
   "license": "AGPL-3.0",
   "bugs": {
     "url": "https://github.com/VapidSlay/Selfbot/issues"
